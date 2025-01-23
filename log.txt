@@ -1,234 +1,231 @@
-[  1948.333] 
+[ 11842.795] 
 X.Org X Server 1.21.1.15
 X Protocol Version 11, Revision 0
-[  1948.443] Current Operating System: Linux void 6.12.10_1 #1 SMP PREEMPT_DYNAMIC Sat Jan 18 01:06:09 UTC 2025 x86_64
-[  1948.444] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.10_1 root=UUID=b75c4213-f040-416b-8cc6-33485b40aea4 ro loglevel=4
-[  1948.534]  
-[  1948.564] Current version of pixman: 0.44.0
-[  1948.625] 	Before reporting problems, check http://wiki.x.org
+[ 11842.799] Current Operating System: Linux void 6.12.10_1 #1 SMP PREEMPT_DYNAMIC Sat Jan 18 01:06:09 UTC 2025 x86_64
+[ 11842.799] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.10_1 root=UUID=b75c4213-f040-416b-8cc6-33485b40aea4 ro loglevel=4
+[ 11842.801]  
+[ 11842.802] Current version of pixman: 0.44.0
+[ 11842.804] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[  1948.626] Markers: (--) probed, (**) from config file, (==) default setting,
+[ 11842.804] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[  1948.747] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Jan 22 18:38:26 2025
-[  1948.778] (==) Using config file: "/etc/X11/xorg.conf"
-[  1948.810] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[  1948.810] (==) No Layout section.  Using the first Screen section.
-[  1948.810] (**) |-->Screen "Default Screen" (0)
-[  1948.810] (**) |   |-->Monitor "<default monitor>"
-[  1948.810] (**) |   |-->Device "SiS Graphics"
-[  1948.810] (==) No monitor specified for screen "Default Screen".
-	Using a default monitor configuration.
-[  1948.810] (**) Allowing byte-swapped clients
-[  1948.810] (==) Automatically adding devices
-[  1948.810] (==) Automatically enabling devices
-[  1948.810] (==) Automatically adding GPU devices
-[  1948.810] (==) Automatically binding GPU devices
-[  1948.810] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[  1948.810] (WW) The directory "/usr/share/fonts/X11/OTF" does not exist.
-[  1948.810] 	Entry deleted from font path.
-[  1948.810] (==) FontPath set to:
+[ 11842.902] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Jan 22 21:23:20 2025
+[ 11842.927] (==) Using config file: "/etc/X11/xorg.conf"
+[ 11842.953] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 11842.954] (==) No Layout section.  Using the first Screen section.
+[ 11842.954] (**) |-->Screen "Default Screen" (0)
+[ 11842.954] (**) |   |-->Monitor "Configured Monitor"
+[ 11842.954] (**) |   |-->Device "SiS Graphics"
+[ 11842.954] (**) Allowing byte-swapped clients
+[ 11842.954] (==) Automatically adding devices
+[ 11842.954] (==) Automatically enabling devices
+[ 11842.954] (==) Automatically adding GPU devices
+[ 11842.954] (==) Automatically binding GPU devices
+[ 11842.954] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 11842.954] (WW) The directory "/usr/share/fonts/X11/OTF" does not exist.
+[ 11842.954] 	Entry deleted from font path.
+[ 11842.954] (==) FontPath set to:
 	/usr/share/fonts/X11/misc,
 	/usr/share/fonts/X11/TTF,
 	/usr/share/fonts/X11/Type1,
 	/usr/share/fonts/X11/100dpi,
 	/usr/share/fonts/X11/75dpi
-[  1948.810] (==) ModulePath set to "/usr/lib64/xorg/modules"
-[  1948.810] (II) The server relies on udev to provide the list of input devices.
+[ 11842.954] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[ 11842.954] (II) The server relies on udev to provide the list of input devices.
 	If no devices become available, reconfigure udev or disable AutoAddDevices.
-[  1948.810] (II) Module ABI versions:
-[  1948.810] 	X.Org ANSI C Emulation: 0.4
-[  1948.810] 	X.Org Video Driver: 25.2
-[  1948.810] 	X.Org XInput driver : 24.4
-[  1948.810] 	X.Org Server Extension : 10.0
-[  1948.814] (--) PCI:*(1@0:0:0) 1039:6351:1558:0803 rev 16, Mem @ 0xc0000000/268435456, 0xd4000000/131072, I/O @ 0x00009000/128, BIOS @ 0x????????/131072
-[  1948.814] (II) Open ACPI successful (/var/run/acpid.socket)
-[  1948.814] (II) LoadModule: "glx"
-[  1948.815] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
-[  1948.817] (II) Module glx: vendor="X.Org Foundation"
-[  1948.817] 	compiled for 1.21.1.15, module version = 1.0.0
-[  1948.817] 	ABI class: X.Org Server Extension, version 10.0
-[  1948.817] (II) LoadModule: "sis671"
-[  1948.817] (II) Loading /usr/lib64/xorg/modules/drivers/sis671_drv.so
-[  1948.818] (II) Module sis671: vendor="X.Org Foundation"
-[  1948.818] 	compiled for 1.21.1.7, module version = 0.10.4
-[  1948.818] 	Module class: X.Org Video Driver
-[  1948.818] 	ABI class: X.Org Video Driver, version 25.2
-[  1948.818] (II) SIS671: driver for SiS chipsets: SIS5597/5598, SIS530/620,
+[ 11842.954] (II) Module ABI versions:
+[ 11842.954] 	X.Org ANSI C Emulation: 0.4
+[ 11842.954] 	X.Org Video Driver: 25.2
+[ 11842.954] 	X.Org XInput driver : 24.4
+[ 11842.954] 	X.Org Server Extension : 10.0
+[ 11842.958] (--) PCI:*(1@0:0:0) 1039:6351:1558:0803 rev 16, Mem @ 0xc0000000/268435456, 0xd4000000/131072, I/O @ 0x00009000/128, BIOS @ 0x????????/131072
+[ 11842.958] (II) Open ACPI successful (/var/run/acpid.socket)
+[ 11842.958] (II) LoadModule: "glx"
+[ 11842.959] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[ 11842.962] (II) Module glx: vendor="X.Org Foundation"
+[ 11842.962] 	compiled for 1.21.1.15, module version = 1.0.0
+[ 11842.962] 	ABI class: X.Org Server Extension, version 10.0
+[ 11842.962] (II) LoadModule: "sis671"
+[ 11842.962] (II) Loading /usr/lib64/xorg/modules/drivers/sis671_drv.so
+[ 11842.962] (II) Module sis671: vendor="X.Org Foundation"
+[ 11842.962] 	compiled for 1.21.1.7, module version = 0.10.4
+[ 11842.962] 	Module class: X.Org Video Driver
+[ 11842.962] 	ABI class: X.Org Video Driver, version 25.2
+[ 11842.962] (II) SIS671: driver for SiS chipsets: SIS5597/5598, SIS530/620,
 	SIS6326/AGP/DVD, SIS300/305, SIS630/730, SIS540, SIS315, SIS315H,
 	SIS315PRO/E, SIS550, SIS650/M650/651/740, SIS330(Xabre),
 	SIS[M]661[F|M]X/[M]741[GX]/[M]760[GX]/[M]761[GX]/662, SIS340,
 	[M]670/[M]770[GX], [M]671/[M]771[GX]
-[  1948.818] (II) SIS671: driver for XGI chipsets: Volari Z7 (XG20),
+[ 11842.962] (II) SIS671: driver for XGI chipsets: Volari Z7 (XG20),
 	Volari V3XT/V5/V8/Duo (XG40/XG42)
-[  1948.818] (--) using VT number 7
+[ 11842.962] (--) using VT number 7
 
-[  1948.867] (II) SIS_pci_probe - begin, entity_num=0
-[  1948.867] (II)                        vendor_id=0x1039
-[  1948.867] (II)                        device_id=0x6351
-[  1948.867] (II)                        bus=1
-[  1948.867] (II)                        dev=0
-[  1948.867] (II)                        func=0
-[  1948.868] (II) SIS_pci_probe - ConfigPciEntity found
-[  1948.868] (II) SIS671(0): SIS_pci_probe - GetEntityInfo chipset is 0x6351
-[  1948.868] (II) SIS671(0): SIS_pci_probe - end
-[  1948.868] (II) SIS671(0): SiS driver (2006/10/17-1, compiled for X.org 1.21.1.7)
-[  1948.868] (II) SIS671(0): Copyright (C) 2001-2005 Thomas Winischhofer <thomas@winischhofer.net> and others
-[  1948.868] (II) SIS671(0): *** See http://www.winischhofer.at/linuxsisvga.shtml
-[  1948.868] (II) SIS671(0): *** for documentation, updates and a Premium Version.
-[  1948.868] (II) SIS671(0): RandR rotation support not available in this version.
-[  1948.868] (II) SIS671(0): Dynamic modelist support not available in this version.
-[  1948.868] (II) SIS671(0): Screen growing support not available in this version.
-[  1948.868] (II) SIS671(0): Advanced Xv video blitter not available in this version.
-[  1948.868] (II) SIS671(0): Advanced MergedFB support not available in this version.
-[  1948.868] (--) SIS671(0): sisfb not found
-[  1948.868] (--) SIS671(0): Relocated I/O registers at 0x9000
-[  1948.869] (II) Loading sub module "ramdac"
-[  1948.869] (II) LoadModule: "ramdac"
-[  1948.869] (II) Module "ramdac" already built-in
-[  1948.869] (**) SIS671(0): Depth 24, (--) framebuffer bpp 32
-[  1948.869] (==) SIS671(0): RGB weight 888
-[  1948.869] (==) SIS671(0): Default visual is TrueColor
-[  1948.946] (WW) SIS671(0): Could not find/read video BIOS
-[  1948.946] (**) SIS671(0): Option "NoAccel" "true"
-[  1948.946] (**) SIS671(0): 2D Acceleration disabled
-[  1948.946] (==) SIS671(0): Color HW cursor is enabled
-[  1948.946] (II) SIS671(0): Using VRAM command queue, size 512k
-[  1948.946] (==) SIS671(0): Hotkey display switching is enabled
-[  1948.946] (==) SIS671(0): SiSCtrl utility interface is disabled
-[  1948.946] (II) SIS671(0): For information on SiSCtrl, see
+[ 11843.009] (II) SIS_pci_probe - begin, entity_num=0
+[ 11843.009] (II)                        vendor_id=0x1039
+[ 11843.009] (II)                        device_id=0x6351
+[ 11843.009] (II)                        bus=1
+[ 11843.009] (II)                        dev=0
+[ 11843.009] (II)                        func=0
+[ 11843.009] (II) SIS_pci_probe - ConfigPciEntity found
+[ 11843.009] (II) SIS671(0): SIS_pci_probe - GetEntityInfo chipset is 0x6351
+[ 11843.009] (II) SIS671(0): SIS_pci_probe - end
+[ 11843.009] (II) SIS671(0): SiS driver (2006/10/17-1, compiled for X.org 1.21.1.7)
+[ 11843.009] (II) SIS671(0): Copyright (C) 2001-2005 Thomas Winischhofer <thomas@winischhofer.net> and others
+[ 11843.009] (II) SIS671(0): *** See http://www.winischhofer.at/linuxsisvga.shtml
+[ 11843.009] (II) SIS671(0): *** for documentation, updates and a Premium Version.
+[ 11843.009] (II) SIS671(0): RandR rotation support not available in this version.
+[ 11843.009] (II) SIS671(0): Dynamic modelist support not available in this version.
+[ 11843.009] (II) SIS671(0): Screen growing support not available in this version.
+[ 11843.009] (II) SIS671(0): Advanced Xv video blitter not available in this version.
+[ 11843.009] (II) SIS671(0): Advanced MergedFB support not available in this version.
+[ 11843.009] (--) SIS671(0): sisfb not found
+[ 11843.009] (--) SIS671(0): Relocated I/O registers at 0x9000
+[ 11843.010] (II) Loading sub module "ramdac"
+[ 11843.010] (II) LoadModule: "ramdac"
+[ 11843.010] (II) Module "ramdac" already built-in
+[ 11843.010] (**) SIS671(0): Depth 24, (--) framebuffer bpp 32
+[ 11843.010] (==) SIS671(0): RGB weight 888
+[ 11843.010] (==) SIS671(0): Default visual is TrueColor
+[ 11843.086] (WW) SIS671(0): Could not find/read video BIOS
+[ 11843.086] (**) SIS671(0): Option "NoAccel" "true"
+[ 11843.086] (**) SIS671(0): 2D Acceleration disabled
+[ 11843.086] (==) SIS671(0): Color HW cursor is enabled
+[ 11843.086] (II) SIS671(0): Using VRAM command queue, size 512k
+[ 11843.086] (==) SIS671(0): Hotkey display switching is enabled
+[ 11843.086] (==) SIS671(0): SiSCtrl utility interface is disabled
+[ 11843.086] (II) SIS671(0): For information on SiSCtrl, see
 		http://www.winischhofer.at/linuxsispart1.shtml#sisctrl
-[  1948.946] (==) SIS671(0): X server will not keep DPI constant for all screen sizes
-[  1948.946] (==) SIS671(0): DRI enabled
-[  1948.946] (--) SIS671(0): 65536K shared video RAM (UMA)
-[  1948.946] (--) SIS671(0): DRAM type: DDR SDRAM
-[  1948.946] (--) SIS671(0): Memory clock: 596.582 MHz
-[  1948.946] (--) SIS671(0): DRAM bus width: 64 bit
-[  1948.946] (--) SIS671(0): Linear framebuffer at 0xC0000000
-[  1948.946] (--) SIS671(0): MMIO registers at 0xD4000000 (size 64K)
-[  1948.946] (--) SIS671(0): VideoRAM: 65536 KB
-[  1948.946] (II) SIS671(0): Using 16384K of framebuffer memory at offset 0K
-[  1948.946] (II) Loading sub module "ddc"
-[  1948.946] (II) LoadModule: "ddc"
-[  1948.946] (II) Module "ddc" already built-in
-[  1948.946] (--) SIS671(0): Detected SiS307LV video bridge (Charter/UMC-1, ID 7; Rev 0xe1)
-[  1950.859] (--) SIS671(0): No CRT1/VGA detected
-[  1950.859] (--) SIS671(0): Detected LCD/plasma panel (1280x800, 11, non-exp., RGB18 [ec2305])
-[  1950.859] (==) SIS671(0): Using gamma correction (1.0, 1.0, 1.0)
-[  1950.859] (II) SIS671(0): CRT1 gamma correction is enabled
-[  1950.859] (II) SIS671(0): Separate Xv gamma correction for CRT1 is disabled
-[  1950.859] (II) SIS671(0): CRT2 gamma correction is enabled
-[  1950.859] (--) SIS671(0): Memory bandwidth at 32 bpp is 1193.16 MHz
-[  1950.859] (--) SIS671(0): Detected LCD PanelDelayCompensation 0x00 (for LCD=CRT2)
-[  1950.859] (--) SIS671(0): Detected LCD PanelDelayCompensation 0x00 (for LCD=CRT1)
-[  1950.859] (--) SIS671(0): 302LV/302ELV: Using EMI 0x6a0d7038 (LCD)
-[  1950.859] (--) SIS671(0): CRT2 DDC probing failed
-[  1950.859] (==) SIS671(0): Min pixel clock is 10 MHz
-[  1950.859] (--) SIS671(0): Max pixel clock is 340 MHz
-[  1950.859] (II) SIS671(0): Replaced entire mode list with built-in modes
-[  1950.859] (II) SIS671(0): Correcting missing CRT2 monitor HSync range
-[  1950.859] (II) SIS671(0): Correcting missing CRT2 monitor VRefresh range
-[  1950.859] (II) SIS671(0): "Unknown reason" in the following list means that the mode
-[  1950.859] (II) SIS671(0): is not supported on the chipset/bridge/current output device.
-[  1950.859] (II) SIS671(0): <default monitor>: Using hsync range of 30.00-80.00 kHz
-[  1950.859] (II) SIS671(0): <default monitor>: Using vrefresh range of 59.00-61.00 Hz
-[  1950.859] (II) SIS671(0): <default monitor>: Using vrefresh value of 71.00 Hz
-[  1950.859] (II) SIS671(0): Clock range:  10.00 to 340.00 MHz
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "800x600" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "640x480" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1024x768" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1920x1440" (bad mode clock/interlace/doublescan)
-[  1950.859] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "2048x1536" (bad mode clock/interlace/doublescan)
-[  1950.859] (II) SIS671(0): Not using default mode "2048x1536" (bad mode clock/interlace/doublescan)
-[  1950.859] (II) SIS671(0): Not using default mode "1400x1050" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1400x1050" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x800" (vrefresh out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1280x800" (hsync out of range)
-[  1950.859] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
-[  1950.859] (II) SIS671(0): Not using default mode "1366x768" (unknown reason)
-[  1950.860] (II) SIS671(0): Not using default mode "1280x800" (width too large for virtual size)
-[  1950.860] (II) SIS671(0): Virtual size is 1024x768 (pitch 1024)
-[  1950.860] (**) SIS671(0): *Default mode "1024x768" (1024x768) (For CRT device: 65.1 MHz, 48.5 kHz, 60.1 Hz)
-[  1950.860] (**) SIS671(0):  Default mode "800x600" (800x600) (For CRT device: 40.0 MHz, 37.9 kHz, 60.3 Hz)
-[  1950.860] (**) SIS671(0):  Default mode "640x480" (640x480) (For CRT device: 25.1 MHz, 31.3 kHz, 59.7 Hz)
-[  1950.860] (==) SIS671(0): DPI set to (96, 96)
-[  1950.860] (II) Loading sub module "fb"
-[  1950.860] (II) LoadModule: "fb"
-[  1950.860] (II) Module "fb" already built-in
-[  1950.860] (II) Loading sub module "vbe"
-[  1950.860] (II) LoadModule: "vbe"
-[  1950.860] (II) Loading /usr/lib64/xorg/modules/libint10.so
-[  1950.860] (II) Module int10: vendor="X.Org Foundation"
-[  1950.860] 	compiled for 1.21.1.15, module version = 1.0.0
-[  1950.860] 	ABI class: X.Org Video Driver, version 25.2
-[  1950.860] (II) Loading sub module "int10"
-[  1950.860] (II) LoadModule: "int10"
-[  1950.860] (II) Loading /usr/lib64/xorg/modules/libint10.so
-[  1950.860] (II) Module int10: vendor="X.Org Foundation"
-[  1950.860] 	compiled for 1.21.1.15, module version = 1.0.0
-[  1950.861] 	ABI class: X.Org Video Driver, version 25.2
-[  1950.861] (II) SIS671(0): initializing int10
-[  1950.862] (II) SIS671(0): Primary V_BIOS segment is: 0xc000
-[  1950.863] (II) SIS671(0): VESA BIOS detected
-[  1950.863] (II) SIS671(0): VESA VBE Version 3.0
-[  1950.863] (II) SIS671(0): VESA VBE Total Mem: 65536 kB
-[  1950.863] (II) SIS671(0): VESA VBE OEM: SiS
-[  1950.863] (II) SIS671(0): VESA VBE OEM Software Rev: 1.0
-[  1950.863] (II) SIS671(0): VESA VBE OEM Vendor: Silicon Integrated Systems Corp.
-[  1950.863] (II) SIS671(0): VESA VBE OEM Product: 6330
-[  1950.863] (II) SIS671(0): VESA VBE OEM Product Rev: 3.72.1E
-[  1950.863] (EE) SIS671(0): Unable to map FB aperture. Invalid argument (22)
-[  1950.863] (EE) SIS671(0): **************************************************
-[  1950.863] (EE) SIS671(0):                       ERROR:
-[  1950.863] (EE) SIS671(0): SiSMapMem() failed
-[  1950.863] (EE) SIS671(0):                   END OF MESSAGE
-[  1950.863] (EE) SIS671(0): **************************************************
-[  1950.864] (EE) 
+[ 11843.086] (==) SIS671(0): X server will not keep DPI constant for all screen sizes
+[ 11843.086] (==) SIS671(0): DRI enabled
+[ 11843.087] (--) SIS671(0): 65536K shared video RAM (UMA)
+[ 11843.087] (--) SIS671(0): DRAM type: DDR SDRAM
+[ 11843.087] (--) SIS671(0): Memory clock: 596.582 MHz
+[ 11843.087] (--) SIS671(0): DRAM bus width: 64 bit
+[ 11843.087] (--) SIS671(0): Linear framebuffer at 0xC0000000
+[ 11843.087] (--) SIS671(0): MMIO registers at 0xD4000000 (size 64K)
+[ 11843.087] (--) SIS671(0): VideoRAM: 65536 KB
+[ 11843.087] (II) SIS671(0): Using 16384K of framebuffer memory at offset 0K
+[ 11843.087] (II) Loading sub module "ddc"
+[ 11843.087] (II) LoadModule: "ddc"
+[ 11843.087] (II) Module "ddc" already built-in
+[ 11843.087] (--) SIS671(0): Detected SiS307LV video bridge (Charter/UMC-1, ID 7; Rev 0xe1)
+[ 11845.011] (--) SIS671(0): No CRT1/VGA detected
+[ 11845.011] (--) SIS671(0): Detected LCD/plasma panel (1280x800, 11, non-exp., RGB18 [ec2305])
+[ 11845.011] (==) SIS671(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 11845.011] (II) SIS671(0): CRT1 gamma correction is enabled
+[ 11845.011] (II) SIS671(0): Separate Xv gamma correction for CRT1 is disabled
+[ 11845.011] (II) SIS671(0): CRT2 gamma correction is enabled
+[ 11845.011] (--) SIS671(0): Memory bandwidth at 32 bpp is 1193.16 MHz
+[ 11845.011] (--) SIS671(0): Detected LCD PanelDelayCompensation 0x00 (for LCD=CRT2)
+[ 11845.011] (--) SIS671(0): Detected LCD PanelDelayCompensation 0x00 (for LCD=CRT1)
+[ 11845.011] (--) SIS671(0): 302LV/302ELV: Using EMI 0x6a0d7038 (LCD)
+[ 11845.011] (--) SIS671(0): CRT2 DDC probing failed
+[ 11845.011] (==) SIS671(0): Min pixel clock is 10 MHz
+[ 11845.011] (--) SIS671(0): Max pixel clock is 340 MHz
+[ 11845.012] (II) SIS671(0): Replaced entire mode list with built-in modes
+[ 11845.012] (II) SIS671(0): Correcting bogus CRT2 monitor VRefresh range
+[ 11845.012] (II) SIS671(0): "Unknown reason" in the following list means that the mode
+[ 11845.012] (II) SIS671(0): is not supported on the chipset/bridge/current output device.
+[ 11845.012] (II) SIS671(0): Configured Monitor: Using hsync range of 30.00-80.00 kHz
+[ 11845.012] (II) SIS671(0): Configured Monitor: Using vrefresh range of 59.00-61.00 Hz
+[ 11845.012] (II) SIS671(0): Configured Monitor: Using vrefresh value of 71.00 Hz
+[ 11845.012] (II) SIS671(0): Clock range:  10.00 to 340.00 MHz
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "800x600" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "640x480" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1024x768" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x1024" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1600x1200" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1920x1440" (bad mode clock/interlace/doublescan)
+[ 11845.012] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "2048x1536" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "2048x1536" (bad mode clock/interlace/doublescan)
+[ 11845.012] (II) SIS671(0): Not using default mode "2048x1536" (bad mode clock/interlace/doublescan)
+[ 11845.012] (II) SIS671(0): Not using default mode "1400x1050" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1400x1050" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x800" (vrefresh out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1280x800" (hsync out of range)
+[ 11845.012] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1440x900" (unknown reason)
+[ 11845.012] (II) SIS671(0): Not using default mode "1366x768" (unknown reason)
+[ 11845.012] (II) SIS671(0): Virtual size is 1280x800 (pitch 1280)
+[ 11845.012] (**) SIS671(0): *Default mode "1280x800" (1280x800) (For CRT device: 107.9 MHz, 63.9 kHz, 59.9 Hz)
+[ 11845.012] (**) SIS671(0):  Default mode "1024x768" (1024x768) (For CRT device: 65.1 MHz, 48.5 kHz, 60.1 Hz)
+[ 11845.012] (**) SIS671(0):  Default mode "800x600" (800x600) (For CRT device: 40.0 MHz, 37.9 kHz, 60.3 Hz)
+[ 11845.012] (**) SIS671(0):  Default mode "640x480" (640x480) (For CRT device: 25.1 MHz, 31.3 kHz, 59.7 Hz)
+[ 11845.012] (==) SIS671(0): DPI set to (96, 96)
+[ 11845.012] (II) Loading sub module "fb"
+[ 11845.012] (II) LoadModule: "fb"
+[ 11845.012] (II) Module "fb" already built-in
+[ 11845.012] (II) Loading sub module "vbe"
+[ 11845.012] (II) LoadModule: "vbe"
+[ 11845.012] (II) Loading /usr/lib64/xorg/modules/libint10.so
+[ 11845.013] (II) Module int10: vendor="X.Org Foundation"
+[ 11845.013] 	compiled for 1.21.1.15, module version = 1.0.0
+[ 11845.013] 	ABI class: X.Org Video Driver, version 25.2
+[ 11845.013] (II) Loading sub module "int10"
+[ 11845.013] (II) LoadModule: "int10"
+[ 11845.013] (II) Loading /usr/lib64/xorg/modules/libint10.so
+[ 11845.013] (II) Module int10: vendor="X.Org Foundation"
+[ 11845.013] 	compiled for 1.21.1.15, module version = 1.0.0
+[ 11845.013] 	ABI class: X.Org Video Driver, version 25.2
+[ 11845.013] (II) SIS671(0): initializing int10
+[ 11845.014] (II) SIS671(0): Primary V_BIOS segment is: 0xc000
+[ 11845.016] (II) SIS671(0): VESA BIOS detected
+[ 11845.016] (II) SIS671(0): VESA VBE Version 3.0
+[ 11845.016] (II) SIS671(0): VESA VBE Total Mem: 65536 kB
+[ 11845.016] (II) SIS671(0): VESA VBE OEM: SiS
+[ 11845.016] (II) SIS671(0): VESA VBE OEM Software Rev: 1.0
+[ 11845.016] (II) SIS671(0): VESA VBE OEM Vendor: Silicon Integrated Systems Corp.
+[ 11845.016] (II) SIS671(0): VESA VBE OEM Product: 6330
+[ 11845.016] (II) SIS671(0): VESA VBE OEM Product Rev: 3.72.1E
+[ 11845.016] (EE) SIS671(0): Unable to map FB aperture. Invalid argument (22)
+[ 11845.016] (EE) SIS671(0): **************************************************
+[ 11845.016] (EE) SIS671(0):                       ERROR:
+[ 11845.016] (EE) SIS671(0): SiSMapMem() failed
+[ 11845.016] (EE) SIS671(0):                   END OF MESSAGE
+[ 11845.016] (EE) SIS671(0): **************************************************
+[ 11845.016] (EE) 
 Fatal server error:
-[  1950.864] (EE) AddScreen/ScreenInit failed for driver 0
-[  1950.864] (EE) 
-[  1950.864] (EE) 
+[ 11845.016] (EE) AddScreen/ScreenInit failed for driver 0
+[ 11845.016] (EE) 
+[ 11845.016] (EE) 
 Please consult the The X.Org Foundation support 
 	 at http://wiki.x.org
  for help. 
-[  1950.864] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
-[  1950.864] (EE) 
-[  1950.956] (EE) Server terminated with error (1). Closing log file.
+[ 11845.016] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[ 11845.016] (EE) 
+[ 11845.108] (EE) Server terminated with error (1). Closing log file.
